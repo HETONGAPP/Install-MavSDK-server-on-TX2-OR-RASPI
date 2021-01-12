@@ -5,7 +5,7 @@
 mv GCS.py /home/$USER/
 sudo apt-get update -y
 sudo apt-get install cmake build-essential colordiff git doxygen -y
-git clone https://github.com/mavlink/MAVSDK.git
+git clone https://github.com/HETONGAPP/MAVSDK.git
 cd MAVSDK
 git checkout master
 git submodule update --init --recursive
