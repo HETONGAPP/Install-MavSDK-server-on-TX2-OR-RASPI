@@ -9,6 +9,6 @@ sudo apt-get update -y
 sudo apt-get install cmake build-essential colordiff git doxygen -y
 git clone https://github.com/HETONGAPP/MAVSDK.git
 cd /$(pwd)/MAVSDK/
-## source mavsdk_server.sh
+source mavsdk_server.sh
 ## pip3 install mavsdk
 
